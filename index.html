@@ -13,8 +13,10 @@
 </head>
 <body>
     <header class="header">
-        <nav>
-          <a class="link logo" href=""><span class="pre-logo">Web</span><span class="sub-logo">Studio</span></a>      
+        <div class="container">
+        <nav class="header-navigation">
+            <div class="header-section">
+             <a class="link logo" href=""><span class="pre-logo">Web</span><span class="sub-logo">Studio</span></a>              
                  <ul class="list">
                      <li>
                          <a class="header-link link" href="./index.html"><span class="present-page">Студия</span></a>
@@ -23,25 +25,29 @@
                          <a class="header-link link" href="./portfolio.html">Портфолио</a>
                         </li>
                      <li>
-                         <a class="header-link link" href="">Контакты</a>
+                         <a class=" header-link header-link-last link" href="">Контакты</a>
                         </li>
                  </ul>
+                </div>    
+                <ul class="list header-flex">
+                    <li>
+                        <a class="info-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a class="info-link info-link-last link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
        </nav>
-       <ul class="list">
-           <li>
-              <a class="info-link link" href="mailto:info@devstudio.com">info@devstudio.com"</a>
-           </li>
-           <li>
-              <a class="info-link link" href="tel:+380961111111">+38 096 111 11 11</a>
-           </li>
-       </ul>
+    </div>
     </header>
     <main>
             <section class="hero">
+                <div class="hero-section">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
                 <button class="main-button" type="button"><span class="button-text">Заказать услугу</span></button>
+            </div>
             </section>
-            <section>
+            <section class="section container">
                 <h2 class="main-title">Наши преимущества</h2>
                 <ul class="list">
                     <li>
@@ -63,7 +69,7 @@
                 </ul>
             </section>
             <!--our work-->
-            <section>
+            <section class="section container">
                 <h2 class="main-title">Чем мы занимаемся</h2>
                 <ul class="list">
                     <li>
@@ -78,7 +84,7 @@
                 </ul> 
             </section>
             <!--our team-->
-            <section class="team-part">
+            <section class="team-part section container">
                 <h2 class="main-title">Наша команда</h2>
                 <ul class="list">
                     <li>
@@ -104,7 +110,7 @@
                 </ul>
             </section>
     </main>
-    <footer class="footer">
+    <footer class="footer container">
             <a class="link" href=""><span class="pre-logo">Web</span><span class="sub-logo-second">Studio</span></a>
             <address class="address">
                 <ul class="list">
