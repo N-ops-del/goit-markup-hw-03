@@ -4,8 +4,18 @@
     --main-text-color: #757575;
     --accent-color: #2196F3;
 }
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: 'Roboto', sans-serif;
+}
+.header{
+    box-sizing: border-box;
+    width: 1600px;
+    height: 80px;
+}
+.logo{
 }
 .pre-logo{
 font-family: Raleway;
@@ -33,6 +43,7 @@ color: #ffffff;
 }
 .list{
     list-style: none;
+    display: flex;
 }
 .link{
     text-decoration: none;
